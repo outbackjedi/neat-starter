@@ -8,7 +8,9 @@ author: MJ
 date: 2020-09-23T15:13:13.021Z
 tags: second-tag
 ---
-![](https://helpx.adobe.com/content/dam/help/en/photoshop/how-to/vector-objects/jcr_content/main-pars/image_738713385/vector-objects-Step1_900x506.jpg.img.jpg)
+# Y﻿o
+
+![Africa](/static/img/earth-with-clouds-africa.jpg "Earth")
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
