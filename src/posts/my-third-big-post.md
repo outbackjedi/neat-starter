@@ -40,6 +40,61 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
 
 ## Horizontal Rules
 
+
+
+<div class="video-container" id="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/TBOmUuG-9BY"
+    title="It's time to talk about these UI trends"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
+
+<style>
+  /* Define the initial position of the iframe */
+  .video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  }
+
+  /* Add the motion effect when scrolled onto */
+  .video-container.appear iframe {
+    transform: scale(1.1);
+  }
+</style>
+
+<script>
+  // Add an event listener to trigger the animation when scrolled onto
+  const videoContainer = document.getElementById('video-container');
+  
+  // Calculate when the video should start the animation
+  const triggerOffset = videoContainer.getBoundingClientRect().top - window.innerHeight + 200; // Adjust 200 to control the trigger point
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY >= triggerOffset) {
+      videoContainer.classList.add('appear');
+    } else {
+      videoContainer.classList.remove('appear');
+    }
+  });
+</script>
+
+
+
 - - -
 
 ## Emphasis
